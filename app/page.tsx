@@ -10,9 +10,9 @@ import PartnersSection from "@/components/sections/PartnersSection";
 import PresidentSection from "@/components/sections/PresidentSection";
 
 export const metadata: Metadata = {
-	title: "Building Tomorrow's Maritime Leaders | OutJourney",
+	title: "Building Tomorrow's Maritime Leaders | Maritime@Penn",
 	description:
-		"Join OutJourney (MAP), the premier maritime student organization at University of Pennsylvania. Building tomorrow's maritime leaders through innovation, technology, and collaboration in Philadelphia's maritime industry.",
+		"Join Maritime@Penn (MAP), the premier maritime student organization at University of Pennsylvania. Building tomorrow's maritime leaders through innovation, technology, and collaboration in Philadelphia's maritime industry.",
 	keywords: [
 		"maritime Philadelphia",
 		"University of Pennsylvania maritime",
@@ -36,19 +36,19 @@ export const metadata: Metadata = {
 		"University of Pennsylvania maritime research",
 	],
 	alternates: {
-		canonical: "https://outjourney.club",
+		canonical: "https://pennmaritime.club",
 	},
 	openGraph: {
-		 title: "Building Tomorrow's Maritime Leaders | OutJourney",
+		title: "Building Tomorrow's Maritime Leaders | Maritime@Penn",
 		description:
 			"Building tomorrow's maritime leaders at Penn. Join the premier maritime student organization in Philadelphia.",
-		url: "https://outjourney.club",
+		url: "https://pennmaritime.club",
 		images: [
 			{
 				url: "/hero-bg.png",
 				width: 1200,
 				height: 630,
-				alt: "OutJourney - First Maritime Club at University of Pennsylvania in Philadelphia",
+				alt: "Maritime@Penn - First Maritime Club at University of Pennsylvania in Philadelphia",
 			},
 		],
 	},

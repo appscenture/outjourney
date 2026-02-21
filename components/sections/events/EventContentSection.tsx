@@ -101,7 +101,7 @@ const EventContentSection: React.FC<EventContentSectionProps> = ({ event }) => {
 								</div>
 								<div className="text-sm text-muted-foreground pt-4">
 									<p className="font-medium">Luka Adzic</p>
-									<p>Founder & President, OutJourney</p>
+									<p>Founder & President, Maritime@Penn</p>
 								</div>
 							</div>
 						</div>

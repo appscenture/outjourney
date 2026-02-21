@@ -48,7 +48,7 @@ const ContactFormSection: React.FC = () => {
 						{/* Main Headline */}
 						<h2 className="text-3xl sm:text-4xl lg:text-5xl font-light text-foreground mb-12 leading-tight max-w-4xl mx-auto">
 							<span className="text-muted-foreground">
-									Ready to join OutJourney and shape the
+								Ready to dive into the
 							</span>{" "}
 							<span className="font-medium text-primary">maritime future</span>{" "}
 							<span className="text-muted-foreground">
@@ -60,7 +60,7 @@ const ContactFormSection: React.FC = () => {
 						<div className="max-w-4xl mx-auto">
 							<Cal
 								namespace="introcall"
-								calLink="lukaadzic/outjourney-intro-call/"
+								calLink="lukaadzic/maritime-penn-intro-call/"
 								style={{ width: "100%", height: "600px", overflow: "scroll" }}
 								config={{ layout: "month_view", theme: "auto" }}
 							/>
@@ -73,7 +73,7 @@ const ContactFormSection: React.FC = () => {
 									<span className="font-medium text-foreground">Note:</span>{" "}
 									This is a 15-minute introductory call where we&apos;ll discuss
 									your interests, answer any questions you may have, and explore
-								how you can get involved with OutJourney.
+									how you can get involved with Maritime@Penn.
 								</p>
 							</div>
 						</div>

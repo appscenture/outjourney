@@ -63,15 +63,15 @@ const NotFound: React.FC = () => {
 					<div className="px-4 sm:px-8 lg:px-12 pt-6 pb-6">
 						<div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-300">
 							{/* Copyright */}
-							<div>© {new Date().getFullYear()} OutJourney</div>
+							<div>© {new Date().getFullYear()} Maritime@Penn</div>
 
 							{/* Email */}
 							<div className="text-center">
 								<Link
-									href="mailto:hello@outjourney.club"
+									href="mailto:hello@pennmaritime.club"
 									className="hover:text-white transition-colors"
 								>
-									hello@outjourney.club
+									hello@pennmaritime.club
 								</Link>
 							</div>
 

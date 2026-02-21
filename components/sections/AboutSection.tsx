@@ -35,15 +35,15 @@ const AboutSection: React.FC = () => {
 
 						{/* Main Headline */}
 						<h2 className="text-3xl sm:text-4xl lg:text-5xl font-light text-foreground mb-12 leading-tight w-full">
-							<span className="font-medium text-primary">OutJourney</span>{" "}
+							<span className="font-medium text-primary">Maritime@Penn</span>{" "}
 							<span className="text-muted-foreground">
-								(MAP) is the first maritime app located in
+								(MAP) is the first maritime club at
 							</span>{" "}
 							<span className="font-medium">
-								Jakarta, Indonesia
+								The University of Pennsylvania
 							</span>
 							<span className="text-muted-foreground">
-								. We unite fresh grads from diverse fields to tackle real maritime
+								. We unite students from diverse fields to tackle real maritime
 								challenges and develop future industry leaders.
 							</span>
 						</h2>
@@ -112,7 +112,7 @@ const AboutSection: React.FC = () => {
 								<span className="font-medium text-foreground">
 									Inspired by history, driven by innovation
 								</span>{" "}
-								— OutJourney bridges tradition with cutting-edge solutions,
+								— Maritime@Penn bridges tradition with cutting-edge solutions,
 								preparing the next generation of maritime leaders to navigate an
 								industry in transformation.
 							</p>

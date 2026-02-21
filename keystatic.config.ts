@@ -5,7 +5,7 @@ export default config({
 		kind: "cloud",
 	},
 	cloud: {
-		project: "outjourney/outjourney",
+		project: "maritime-penn/pennmaritime",
 	},
 	collections: {
 		events: collection({
