@@ -1,0 +1,263 @@
+/* Enhanced event content styling */
+
+/* Headings */
+.event-content h1 {
+	font-size: 2.25rem;
+	font-weight: 300;
+	color: var(--foreground);
+	margin-bottom: 2rem;
+	margin-top: 3rem;
+	line-height: 1.2;
+}
+
+.event-content h1:first-child {
+	margin-top: 0;
+}
+
+.event-content h2 {
+	font-size: 1.875rem;
+	font-weight: 300;
+	color: var(--foreground);
+	margin-bottom: 1.5rem;
+	margin-top: 2.5rem;
+	line-height: 1.3;
+}
+
+.event-content h2:first-child {
+	margin-top: 0;
+}
+
+.event-content h3 {
+	font-size: 1.5rem;
+	font-weight: 300;
+	color: var(--foreground);
+	margin-bottom: 1rem;
+	margin-top: 2rem;
+	line-height: 1.4;
+}
+
+.event-content h3:first-child {
+	margin-top: 0;
+}
+
+.event-content h4 {
+	font-size: 1.25rem;
+	font-weight: 500;
+	color: var(--foreground);
+	margin-bottom: 0.75rem;
+	margin-top: 1.5rem;
+	line-height: 1.4;
+}
+
+.event-content h4:first-child {
+	margin-top: 0;
+}
+
+/* Paragraphs */
+.event-content p {
+	color: var(--muted-foreground);
+	font-size: 1.125rem;
+	line-height: 1.7;
+	margin-bottom: 1.5rem;
+}
+
+/* Center-aligned text for president messages */
+.event-content.text-center p {
+	text-align: center;
+}
+
+/* Text emphasis */
+.event-content strong {
+	color: var(--foreground);
+	font-weight: 600;
+}
+
+.event-content em {
+	color: var(--primary);
+	font-weight: 500;
+	font-style: italic;
+}
+
+/* Links */
+.event-content a {
+	color: var(--primary);
+	font-weight: 500;
+	text-decoration: underline;
+	text-decoration-color: var(--primary);
+	text-decoration-style: solid;
+	text-decoration-thickness: 1px;
+	text-underline-offset: 2px;
+	transition: all 0.2s ease;
+}
+
+.event-content a:hover {
+	text-decoration-thickness: 2px;
+}
+
+/* Lists */
+.event-content ul {
+	list-style-type: disc;
+	padding-left: 1.5rem;
+	margin: 1.5rem 0;
+	color: var(--muted-foreground);
+}
+
+.event-content ol {
+	list-style-type: decimal;
+	padding-left: 1.5rem;
+	margin: 1.5rem 0;
+	color: var(--muted-foreground);
+}
+
+.event-content li {
+	margin: 0.75rem 0;
+	line-height: 1.7;
+	font-size: 1.125rem;
+}
+
+.event-content li::marker {
+	color: var(--foreground);
+}
+
+/* Nested lists */
+.event-content ul ul,
+.event-content ol ol,
+.event-content ul ol,
+.event-content ol ul {
+	margin: 0.5rem 0;
+}
+
+.event-content ul ul {
+	list-style-type: circle;
+}
+
+.event-content ul ul ul {
+	list-style-type: square;
+}
+
+/* Blockquotes */
+.event-content blockquote {
+	border-left: 4px solid var(--primary);
+	padding-left: 1.5rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	margin: 2rem 0;
+	font-style: italic;
+	color: var(--muted-foreground);
+	background: var(--muted);
+	border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.event-content blockquote p {
+	margin: 0;
+}
+
+/* Code */
+.event-content code {
+	font-family:
+		"SF Mono", Monaco, "Cascadia Code", "Roboto Mono", Consolas, "Courier New",
+		monospace;
+	font-size: 0.875rem;
+	background: var(--primary);
+	color: var(--primary-foreground);
+	padding: 0.25rem 0.5rem;
+	border-radius: 0.25rem;
+	border: 1px solid var(--primary);
+}
+
+.event-content pre {
+	font-family:
+		"SF Mono", Monaco, "Cascadia Code", "Roboto Mono", Consolas, "Courier New",
+		monospace;
+	font-size: 0.875rem;
+	line-height: 1.5;
+	overflow-x: auto;
+	background: var(--muted);
+	border: 1px solid var(--border);
+	border-radius: 0.5rem;
+	padding: 1.5rem;
+	margin: 1.5rem 0;
+}
+
+.event-content pre code {
+	background: transparent;
+	border: none;
+	padding: 0;
+	font-size: inherit;
+	color: var(--foreground);
+}
+
+/* Horizontal rule */
+.event-content hr {
+	border: none;
+	height: 1px;
+	background: linear-gradient(to right, transparent, var(--border), transparent);
+	margin: 3rem 0;
+}
+
+/* Images */
+.event-content img {
+	border-radius: 0.5rem;
+	border: 1px solid var(--border);
+	max-width: 100%;
+	height: auto;
+	margin: 1.5rem 0;
+}
+
+/* Tables */
+.event-content table {
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid var(--border);
+	border-radius: 0.5rem;
+	overflow: hidden;
+	margin: 1.5rem 0;
+}
+
+.event-content thead {
+	background: var(--muted);
+}
+
+.event-content th {
+	border: 1px solid var(--border);
+	padding: 0.75rem 1rem;
+	text-align: left;
+	font-weight: 600;
+	color: var(--foreground);
+	font-size: 0.875rem;
+}
+
+.event-content td {
+	border: 1px solid var(--border);
+	padding: 0.75rem 1rem;
+	color: var(--muted-foreground);
+	font-size: 0.875rem;
+}
+
+.event-content tbody tr:nth-child(even) {
+	background: var(--muted);
+}
+
+/* Responsive typography */
+@media (min-width: 1024px) {
+	.event-content h1 {
+		font-size: 3rem;
+	}
+
+	.event-content h2 {
+		font-size: 2.25rem;
+	}
+
+	.event-content h3 {
+		font-size: 1.875rem;
+	}
+
+	.event-content h4 {
+		font-size: 1.5rem;
+	}
+
+	.event-content p,
+	.event-content li {
+		font-size: 1.25rem;
+	}
+}
