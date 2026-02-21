@@ -797,7 +797,7 @@ const Navbar: React.FC = () => {
 							className="flex items-center justify-center relative left-2 top-1 z-10"
 						>
 							<Image
-								src="public\brand\outjourney.png"
+								src="public\brand\outjourney.svg"
 								alt="OutJourney"
 								width={140}
 								height={48}
