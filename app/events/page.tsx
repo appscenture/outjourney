@@ -4,9 +4,9 @@ import EventsListSection from "@/components/sections/events/EventsListSection";
 import Footer from "@/components/sections/Footer";
 
 export const metadata: Metadata = {
-	title: "Maritime Events | Maritime@Penn",
+	title: "Maritime Events | OutJourney",
 	description:
-		"Discover upcoming maritime events at University of Pennsylvania. Join Maritime@Penn for industry speakers, networking opportunities, and maritime innovation discussions in Philadelphia.",
+		"Discover upcoming maritime events at University of Pennsylvania. Join OutJourney for industry speakers, networking opportunities, and maritime innovation discussions in Philadelphia.",
 	keywords: [
 		"maritime events Philadelphia",
 		"University of Pennsylvania maritime events",
@@ -25,19 +25,19 @@ export const metadata: Metadata = {
 		"Delaware River maritime events",
 	],
 	alternates: {
-		canonical: "https://pennmaritime.club/events",
+		canonical: "https://outjourney.club/events",
 	},
 	openGraph: {
-		title: "Maritime Events | Maritime@Penn",
+		 title: "Maritime Events | OutJourney",
 		description:
 			"Upcoming maritime events, industry speakers, and networking opportunities at University of Pennsylvania.",
-		url: "https://pennmaritime.club/events",
+		url: "https://outjourney.club/events",
 		images: [
 			{
 				url: "/event-1-main.tiff",
 				width: 1200,
 				height: 630,
-				alt: "Maritime@Penn Events - Maritime Industry Speakers and Networking at University of Pennsylvania",
+				alt: "OutJourney Events - Maritime Industry Speakers and Networking at University of Pennsylvania",
 			},
 		],
 	},

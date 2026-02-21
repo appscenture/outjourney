@@ -9,7 +9,7 @@ export function PartnersClientWrapper() {
 			<div className="w-full">
 				<p className="text-lg text-muted-foreground leading-relaxed mb-8 w-full">
 					<span className="font-medium text-foreground">
-						Partner with Maritime@Penn to shape the future of maritime
+						Partner with OutJourney to shape the future of maritime
 						innovation and cultivate the next generation of industry leaders.
 					</span>{" "}
 					Support cutting-edge research, world-class events, and transformative

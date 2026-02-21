@@ -6,12 +6,12 @@ export default function StructuredData() {
 	const organizationData = {
 		"@context": "https://schema.org",
 		"@type": "Organization",
-		name: "Maritime@Penn",
+		name: "OutJourney",
 		alternateName: "MAP",
 		description:
 			"The first maritime club at the University of Pennsylvania, uniting students from diverse fields to tackle real maritime challenges and develop future industry leaders.",
-		url: "https://pennmaritime.club",
-		logo: "https://pennmaritime.club/brand/pennmaritime.svg",
+		url: "https://outjourney.club",
+		logo: "https://outjourney.club/brand/outjourney.svg",
 		foundingDate: "2024",
 		address: {
 			"@type": "PostalAddress",
@@ -34,7 +34,7 @@ export default function StructuredData() {
 		contactPoint: {
 			"@type": "ContactPoint",
 			contactType: "general inquiry",
-			url: "https://pennmaritime.club/contact",
+			url: "https://outjourney.club/contact",
 		},
 	};
 

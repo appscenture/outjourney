@@ -797,16 +797,8 @@ const Navbar: React.FC = () => {
 							className="flex items-center justify-center relative left-2 top-1 z-10"
 						>
 							<Image
-								src="/brand/pennmaritime.svg"
-								alt="Maritime at Penn"
-								width={140}
-								height={48}
-								className="h-12 w-auto"
-							/>
-						</Link>
-					</div>
-
-					{/* Right Navigation Links */}
+								src="/brand/outjourney.svg"
+							alt="OutJourney"
 					<nav
 						className="flex items-center justify-center relative"
 						style={{ gap: "clamp(1rem, 1.5vw, 1.5rem)" }}
@@ -897,16 +889,8 @@ const Navbar: React.FC = () => {
 							className="flex items-center justify-center relative left-2 top-1 z-10"
 						>
 							<Image
-								src="/brand/pennmaritime.svg"
-								alt="Maritime at Penn"
-								width={140}
-								height={48}
-								className="h-12 w-auto"
-							/>
-						</Link>
-					</div>
-
-					{/* Menu Button */}
+								src="/brand/outjourney.svg"
+							alt="OutJourney"
 					<button
 						type="button"
 						onClick={toggleMobileMenu}

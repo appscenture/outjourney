@@ -51,7 +51,7 @@ const PresidentSection: React.FC = () => {
 								<div className="space-y-6">
 									<p className="text-lg text-muted-foreground leading-relaxed">
 										<span className="font-medium text-foreground">
-											&ldquo;Maritime@Penn represents more than just a student
+											&ldquo;OutJourney represents more than just a student
 											organization
 										</span>{" "}
 										— it&apos;s a movement to bridge the gap between academic
@@ -101,7 +101,7 @@ const PresidentSection: React.FC = () => {
 											</div>
 										</div>
 										<span className="text-sm text-muted-foreground">
-											Founder & President, Maritime@Penn
+											Founder & President, OutJourney
 										</span>
 									</div>
 								</div>
@@ -113,7 +113,7 @@ const PresidentSection: React.FC = () => {
 									<div className="relative rounded-2xl overflow-hidden">
 										<Image
 											src="/Luka.jpeg"
-											alt="Luka Adzic, Founder & President of Maritime@Penn"
+											alt="Luka Adzic, Founder & President of OutJourney"
 											className="object-cover aspect-[3/4] bg-muted"
 											priority
 											width={5000}

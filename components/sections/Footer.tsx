@@ -66,22 +66,22 @@ const Footer: React.FC = () => {
 					<div className="px-4 sm:px-8 lg:px-12 pt-6 pb-6">
 						<div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-300">
 							{/* Copyright */}
-							<div>© {new Date().getFullYear()} Maritime@Penn</div>
+							<div>© {new Date().getFullYear()} OutJourney</div>
 
 							{/* Email */}
 							<div className="text-center">
 								<Link
-									href="mailto:hello@pennmaritime.club"
+									href="mailto:hello@outjourney.club"
 									className="hover:text-white transition-colors"
 								>
-									hello@pennmaritime.club
+									hello@outjourney.club
 								</Link>
 							</div>
 
 							{/* Social Links */}
 							<div className="flex items-center gap-4">
 								<Link
-									href="https://www.linkedin.com/company/pennmaritime/"
+									href="https://www.linkedin.com/company/outjourney/"
 									className="hover:text-white transition-colors text-lg"
 									aria-label="LinkedIn"
 									target="_blank"
@@ -90,7 +90,7 @@ const Footer: React.FC = () => {
 									<FaLinkedinIn />
 								</Link>
 								<Link
-									href="https://www.instagram.com/pennmaritime/"
+									href="https://www.instagram.com/outjourney/"
 									className="hover:text-white transition-colors text-lg"
 									aria-label="Instagram"
 									target="_blank"
@@ -99,7 +99,7 @@ const Footer: React.FC = () => {
 									<FaInstagram />
 								</Link>
 								<Link
-									href="https://x.com/pennmaritime/"
+									href="https://x.com/outjourney/"
 									className="hover:text-white transition-colors text-lg"
 									aria-label="X (Twitter)"
 									target="_blank"

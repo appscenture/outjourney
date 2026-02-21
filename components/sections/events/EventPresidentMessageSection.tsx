@@ -43,9 +43,9 @@ const EventPresidentMessageSection: React.FC<
 						{/* President Image */}
 						<div className="mb-6">
 							<div className="w-20 h-20 mx-auto rounded-full overflow-hidden bg-muted border-2 border-primary/20">
-								<Image
+									<Image
 									src="/Luka.jpeg"
-									alt="Luka Adzic, Founder & President of Maritime@Penn"
+									alt="Luka Adzic, Founder & President of OutJourney"
 									width={80}
 									height={80}
 									className="object-cover w-full h-full"
@@ -62,7 +62,7 @@ const EventPresidentMessageSection: React.FC<
 						<div className="text-center">
 							<p className="text-lg font-medium text-primary">Luka Adzic</p>
 							<p className="text-muted-foreground">
-								Founder & President, Maritime@Penn
+								Founder & President, OutJourney
 							</p>
 						</div>
 					</div>

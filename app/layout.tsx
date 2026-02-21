@@ -17,12 +17,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	metadataBase: new URL("https://pennmaritime.club"),
-	title: "Maritime@Penn | First Maritime Club at UPenn",
+	metadataBase: new URL("https://outjourney.club"),
+	title: "OutJourney | First Maritime Club at UPenn",
 	description:
-		"Maritime@Penn (MAP) is the first maritime club at the University of Pennsylvania. We unite students from diverse fields to tackle real maritime challenges and develop future industry leaders in Philadelphia.",
+		"OutJourney (MAP) is the first maritime club at the University of Pennsylvania. We unite students from diverse fields to tackle real maritime challenges and develop future industry leaders in Philadelphia.",
 	keywords: [
-		"Maritime@Penn",
+		"OutJourney",
 		"MAP",
 		"Maritime at Penn",
 		"University of Pennsylvania maritime club",
@@ -48,9 +48,9 @@ export const metadata: Metadata = {
 		"Philadelphia ports",
 		"Penn maritime leaders",
 	],
-	authors: [{ name: "Maritime@Penn" }],
-	creator: "Maritime@Penn",
-	publisher: "Maritime@Penn",
+	authors: [{ name: "OutJourney" }],
+	creator: "OutJourney",
+	publisher: "OutJourney",
 	robots: {
 		index: true,
 		follow: true,
@@ -65,29 +65,29 @@ export const metadata: Metadata = {
 	openGraph: {
 		type: "website",
 		locale: "en_US",
-		url: "https://pennmaritime.club",
-		title: "Maritime@Penn | First Maritime Club at UPenn",
+		url: "https://outjourney.club",
+		title: "OutJourney | First Maritime Club at UPenn",
 		description:
-			"Maritime@Penn (MAP) is the first maritime club at the University of Pennsylvania. Join us in shaping the future of the maritime industry in Philadelphia.",
-		siteName: "Maritime@Penn",
+			"OutJourney (MAP) is the first maritime club at the University of Pennsylvania. Join us in shaping the future of the maritime industry in Philadelphia.",
+		siteName: "OutJourney",
 		images: [
 			{
 				url: "/hero-bg.png",
 				width: 1200,
 				height: 630,
-				alt: "Maritime@Penn - University of Pennsylvania Maritime Organization",
+				alt: "OutJourney - University of Pennsylvania Maritime Organization",
 			},
 		],
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "Maritime@Penn | First Maritime Club at UPenn",
+		title: "OutJourney | First Maritime Club at UPenn",
 		description:
 			"The first maritime club at University of Pennsylvania. Developing maritime leaders and innovation in Philadelphia.",
 		images: ["/hero-bg.png"],
 	},
 	alternates: {
-		canonical: "https://pennmaritime.club",
+		canonical: "https://outjourney.club",
 	},
 	category: "education",
 	classification: "Maritime Education Organization",
