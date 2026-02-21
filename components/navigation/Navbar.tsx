@@ -797,8 +797,8 @@ const Navbar: React.FC = () => {
 							className="flex items-center justify-center relative left-2 top-1 z-10"
 						>
 							<Image
-								src="/brand/pennmaritime.svg"
-								alt="Maritime at Penn"
+								src="https://www.logoai.com/uploads/icon/2021/09/23/4a78fbec-fcca-4a17-8554-9b2f4e79861e.png"
+								alt="OutJourney"
 								width={140}
 								height={48}
 								className="h-12 w-auto"
@@ -897,8 +897,8 @@ const Navbar: React.FC = () => {
 							className="flex items-center justify-center relative left-2 top-1 z-10"
 						>
 							<Image
-								src="/brand/pennmaritime.svg"
-								alt="Maritime at Penn"
+								src="https://www.logoai.com/uploads/icon/2021/09/23/4a78fbec-fcca-4a17-8554-9b2f4e79861e.png"
+								alt="OutJourney"
 								width={140}
 								height={48}
 								className="h-12 w-auto"
