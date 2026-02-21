@@ -17,19 +17,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	metadataBase: new URL("https://pennmaritime.club"),
-	title: "Maritime@Penn | First Maritime Club at UPenn",
+	metadataBase: new URL("https://outjourney.club"),
+	title: "OutJourney | Premier Maritime Student Organization at UPenn",
 	description:
-		"Maritime@Penn (MAP) is the first maritime club at the University of Pennsylvania. We unite students from diverse fields to tackle real maritime challenges and develop future industry leaders in Philadelphia.",
+		"OutJourney is the premier maritime student organization at the University of Pennsylvania. We unite students from diverse fields to tackle real maritime challenges and develop future industry leaders in Philadelphia.",
 	keywords: [
-		"Maritime@Penn",
-		"MAP",
-		"Maritime at Penn",
+		"OutJourney",
+		"Maritime student organization",
 		"University of Pennsylvania maritime club",
 		"UPenn maritime club",
-		"Penn maritime club",
-		"University of Pennsylvania maritime",
-		"Penn maritime club",
+		"Penn maritime innovation",
 		"Philadelphia maritime",
 		"maritime student organization",
 		"Penn maritime innovation",
@@ -48,9 +45,9 @@ export const metadata: Metadata = {
 		"Philadelphia ports",
 		"Penn maritime leaders",
 	],
-	authors: [{ name: "Maritime@Penn" }],
-	creator: "Maritime@Penn",
-	publisher: "Maritime@Penn",
+	authors: [{ name: "OutJourney" }],
+	creator: "OutJourney",
+	publisher: "OutJourney",
 	robots: {
 		index: true,
 		follow: true,
@@ -65,29 +62,29 @@ export const metadata: Metadata = {
 	openGraph: {
 		type: "website",
 		locale: "en_US",
-		url: "https://pennmaritime.club",
-		title: "Maritime@Penn | First Maritime Club at UPenn",
+		url: "https://outjourney.club",
+		title: "OutJourney | Premier Maritime Student Organization at UPenn",
 		description:
-			"Maritime@Penn (MAP) is the first maritime club at the University of Pennsylvania. Join us in shaping the future of the maritime industry in Philadelphia.",
-		siteName: "Maritime@Penn",
+			"OutJourney is the premier maritime student organization at the University of Pennsylvania. Join us in shaping the future of the maritime industry in Philadelphia.",
+		siteName: "OutJourney",
 		images: [
 			{
 				url: "/hero-bg.png",
 				width: 1200,
 				height: 630,
-				alt: "Maritime@Penn - University of Pennsylvania Maritime Organization",
+				alt: "OutJourney - University of Pennsylvania Maritime Organization",
 			},
 		],
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "Maritime@Penn | First Maritime Club at UPenn",
+		title: "OutJourney | Premier Maritime Student Organization at UPenn",
 		description:
-			"The first maritime club at University of Pennsylvania. Developing maritime leaders and innovation in Philadelphia.",
+			"The premier maritime student organization at University of Pennsylvania. Developing maritime leaders and innovation in Philadelphia.",
 		images: ["/hero-bg.png"],
 	},
 	alternates: {
-		canonical: "https://pennmaritime.club",
+		canonical: "https://outjourney.club",
 	},
 	category: "education",
 	classification: "Maritime Education Organization",
@@ -120,7 +117,7 @@ export default function RootLayout({
 			}}
 		>
 			<head>
-				<link rel="canonical" href="https://pennmaritime.club" />
+				<link rel="canonical" href="https://outjourney.club" />
 				<link rel="preload" href="/Dissolve_noise.jpg" as="image" />
 				<meta name="geo.region" content="US-PA" />
 				<meta name="geo.placename" content="Philadelphia" />
