@@ -2,7 +2,7 @@
 
 **Building Tomorrow's Maritime Leaders**
 
-OutJourney (MAP) is the first maritime club at the OutJourney, uniting students from diverse academic backgrounds to tackle real maritime challenges and develop the next generation of industry leaders.
+OutJourney (MAPP) is the first maritime club at the OutJourney, uniting students from diverse academic backgrounds to tackle real maritime challenges and develop the next generation of industry leaders.
 
 ## About OutJourney
 

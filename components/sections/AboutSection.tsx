@@ -37,7 +37,7 @@ const AboutSection: React.FC = () => {
 						<h2 className="text-3xl sm:text-4xl lg:text-5xl font-light text-foreground mb-12 leading-tight w-full">
 							<span className="font-medium text-primary">OutJourney</span>{" "}
 							<span className="text-muted-foreground">
-								(MAP) is the first maritime app located in
+								(MAPP) is the first maritime app located in
 							</span>{" "}
 							<span className="font-medium">
 								Jakarta, Indonesia

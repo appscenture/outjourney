@@ -12,7 +12,7 @@ import PresidentSection from "@/components/sections/PresidentSection";
 export const metadata: Metadata = {
 	title: "Building Tomorrow's Maritime Leaders | OutJourney",
 	description:
-		"Join OutJourney (MAP), the premier maritime student organization at OutJourney. Building tomorrow's maritime leaders through innovation, technology, and collaboration in Philadelphia's maritime industry.",
+		"Join OutJourney (MAPP), the premier maritime student organization at OutJourney. Building tomorrow's maritime leaders through innovation, technology, and collaboration in Philadelphia's maritime industry.",
 	keywords: [
 		"maritime Philadelphia",
 		"OutJourney maritime",
