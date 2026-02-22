@@ -71,10 +71,10 @@ const Footer: React.FC = () => {
 							{/* Email */}
 							<div className="text-center">
 								<Link
-									href="mailto:hello@pennmaritime.club"
+									href="mailto:business@outjourney.id"
 									className="hover:text-white transition-colors"
 								>
-									hello@pennmaritime.club
+									business@outjourney.id
 								</Link>
 							</div>
 
