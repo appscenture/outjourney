@@ -39,7 +39,7 @@ const PartnersSection: React.FC = () => {
 						{/* Main Headline */}
 						<h2 className="text-3xl sm:text-4xl lg:text-5xl font-light text-foreground mb-12 leading-tight w-full">
 							<span className="text-muted-foreground">Partner with</span>{" "}
-							<span className="font-medium text-primary">Maritime@Penn</span>{" "}
+							<span className="font-medium text-primary">OutJourney</span>{" "}
 							<span className="text-muted-foreground">
 								to shape the future of maritime innovation and cultivate the
 								next generation of industry leaders.

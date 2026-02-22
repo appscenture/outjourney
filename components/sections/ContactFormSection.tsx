@@ -73,7 +73,7 @@ const ContactFormSection: React.FC = () => {
 									<span className="font-medium text-foreground">Note:</span>{" "}
 									This is a 15-minute introductory call where we&apos;ll discuss
 									your interests, answer any questions you may have, and explore
-									how you can get involved with Maritime@Penn.
+									how you can get involved with OutJourney.
 								</p>
 							</div>
 						</div>

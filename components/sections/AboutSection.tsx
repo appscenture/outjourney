@@ -68,7 +68,7 @@ const AboutSection: React.FC = () => {
 								</p>
 							</div>
 
-							{/* UPenn Advantage */}
+							{/* OutJourney Advantage */}
 							<div className="space-y-6">
 								<div className="flex items-center gap-3 mb-4">
 									<div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
@@ -79,7 +79,7 @@ const AboutSection: React.FC = () => {
 									</h3>
 								</div>
 								<p className="text-base text-muted-foreground leading-relaxed">
-									As a leading research institution, UPenn provides the
+									As a leading research institution, OutJourney provides the
 									interdisciplinary expertise and entrepreneurial spirit needed
 									to address maritime complexities. Our members leverage
 									resources across engineering, business, law, and healthcare to

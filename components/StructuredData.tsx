@@ -6,10 +6,10 @@ export default function StructuredData() {
 	const organizationData = {
 		"@context": "https://schema.org",
 		"@type": "Organization",
-		name: "Maritime@Penn",
+		name: "OutJourney",
 		alternateName: "MAP",
 		description:
-			"The first maritime club at the University of Pennsylvania, uniting students from diverse fields to tackle real maritime challenges and develop future industry leaders.",
+			"The first maritime club at the OutJourney, uniting students from diverse fields to tackle real maritime challenges and develop future industry leaders.",
 		url: "https://pennmaritime.club",
 		logo: "https://pennmaritime.club/brand/pennmaritime.svg",
 		foundingDate: "2024",
@@ -21,15 +21,15 @@ export default function StructuredData() {
 		},
 		parentOrganization: {
 			"@type": "CollegeOrUniversity",
-			name: "University of Pennsylvania",
-			url: "https://www.upenn.edu",
+			name: "OutJourney",
+			url: "https://www.OutJourney.edu",
 		},
 		memberOf: {
 			"@type": "CollegeOrUniversity",
-			name: "University of Pennsylvania",
+			name: "OutJourney",
 		},
 		keywords:
-			"maritime, University of Pennsylvania, Penn, Philadelphia, student organization, maritime innovation, blue economy, maritime technology, naval architecture, marine engineering",
+			"maritime, OutJourney, Penn, Philadelphia, student organization, maritime innovation, blue economy, maritime technology, naval architecture, marine engineering",
 		sameAs: [],
 		contactPoint: {
 			"@type": "ContactPoint",

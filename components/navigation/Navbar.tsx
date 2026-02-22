@@ -794,16 +794,10 @@ const Navbar: React.FC = () => {
 					<div className="flex items-center justify-center gap-2 relative mx-6 xl:mx-8">
 						<Link
 							href="/"
-							className="flex items-center justify-center relative left-2 top-1 z-10"
-						>
-							<Image
-								src="public\brand\outjourney.svg"
-								alt="OutJourney"
-								width={96}
-								height={96}
-								className="h-12 w-auto"
-							/>
-						</Link>
+						className="font-bold text-xl md:text-2xl text-white hover:text-cyan-400 transition-colors z-10"
+					>
+						OutJourney
+					</Link>
 					</div>
 
 					{/* Right Navigation Links */}
@@ -894,15 +888,9 @@ const Navbar: React.FC = () => {
 					<div className="flex-1 flex justify-center">
 						<Link
 							href="/"
-							className="flex items-center justify-center relative left-2 top-1 z-10"
+							className="font-bold text-lg md:text-xl text-white hover:text-cyan-400 transition-colors z-10"
 						>
-							<Image
-								src="https://www.logoai.com/uploads/icon/2021/09/23/4a78fbec-fcca-4a17-8554-9b2f4e79861e.png"
-								alt="OutJourney"
-								width={140}
-								height={48}
-								className="h-12 w-auto"
-							/>
+							OutJourney
 						</Link>
 					</div>
 

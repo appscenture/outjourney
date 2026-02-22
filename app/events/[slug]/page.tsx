@@ -34,17 +34,17 @@ export async function generateMetadata({
 	}
 
 	return {
-		title: `${event.title} | Maritime@Penn`,
+		title: `${event.title} | OutJourney`,
 		description: event.shortDescription || `Join us for ${event.title}`,
 		openGraph: {
-			title: `${event.title} | Maritime@Penn`,
+			title: `${event.title} | OutJourney`,
 			description: event.shortDescription || `Join us for ${event.title}`,
 			images: event.featuredImage ? [event.featuredImage] : [],
 			type: "article",
 		},
 		twitter: {
 			card: "summary_large_image",
-			title: `${event.title} | Maritime@Penn`,
+			title: `${event.title} | OutJourney`,
 			description: event.shortDescription || `Join us for ${event.title}`,
 			images: event.featuredImage ? [event.featuredImage] : [],
 		},
