@@ -15,7 +15,7 @@ export default function StructuredData() {
 		foundingDate: "2024",
 		address: {
 			"@type": "PostalAddress",
-			addressLocality: "Philadelphia",
+			addressLocality: "Jakarta",
 			addressRegion: "PA",
 			addressCountry: "US",
 		},
@@ -29,7 +29,7 @@ export default function StructuredData() {
 			name: "OutJourney",
 		},
 		keywords:
-			"maritime, OutJourney, Jakarta, Philadelphia, student organization, maritime innovation, blue economy, maritime technology, naval architecture, marine engineering",
+			"maritime, OutJourney, Jakarta, Jakarta, student organization, maritime innovation, blue economy, maritime technology, naval architecture, marine engineering",
 		sameAs: [],
 		contactPoint: {
 			"@type": "ContactPoint",

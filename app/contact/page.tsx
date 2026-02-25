@@ -6,22 +6,22 @@ import Footer from "@/components/sections/Footer";
 export const metadata: Metadata = {
 	title: "Contact Us | OutJourney",
 	description:
-		"Get in touch with OutJourney to join our maritime community at OutJourney. Connect with maritime professionals, explore opportunities, and become part of Philadelphia's maritime innovation network.",
+		"Get in touch with OutJourney to join our maritime community at OutJourney. Connect with maritime professionals, explore opportunities, and become part of Jakarta's maritime innovation network.",
 	keywords: [
 		"contact OutJourney",
 		"join maritime club Jakarta",
 		"OutJourney maritime contact",
 		"Jakarta maritime membership",
-		"maritime student organization contact Philadelphia",
+		"maritime student organization contact Jakarta",
 		"join OutJourney maritime",
 		"maritime club application Jakarta",
-		"Philadelphia maritime community contact",
+		"Jakarta maritime community contact",
 		"OutJourney maritime opportunities",
 		"Jakarta maritime networking contact",
-		"maritime partnerships Philadelphia",
+		"maritime partnerships Jakarta",
 		"OutJourney maritime collaboration",
 		"maritime internships Jakarta contact",
-		"Philadelphia maritime careers contact",
+		"Jakarta maritime careers contact",
 		"Jakarta maritime committee join",
 	],
 	alternates: {
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
 	openGraph: {
 		title: "Contact Us | OutJourney",
 		description:
-			"Connect with OutJourney at OutJourney. Join our maritime community and explore opportunities in Philadelphia's maritime industry.",
+			"Connect with OutJourney at OutJourney. Join our maritime community and explore opportunities in Jakarta's maritime industry.",
 		url: "https://outjourney.club/contact",
 		images: [
 			{

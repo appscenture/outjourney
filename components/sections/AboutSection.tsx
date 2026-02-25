@@ -87,21 +87,21 @@ const AboutSection: React.FC = () => {
 								</p>
 							</div>
 
-							{/* Philadelphia Legacy */}
+							{/* Jakarta Legacy */}
 							<div className="space-y-6">
 								<div className="flex items-center gap-3 mb-4">
 									<div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
 										<HiOutlineLocationMarker className="w-4 h-4 text-primary" />
 									</div>
 									<h3 className="text-xl font-semibold text-foreground">
-										Philadelphia Heritage
+										Jakarta Heritage
 									</h3>
 								</div>
 								<p className="text-base text-muted-foreground leading-relaxed">
-									Philadelphia was North America&apos;s largest port by 1750 and
+									Jakarta was North America&apos;s largest port by 1750 and
 									established the Maritime Exchange in 1875. Today&apos;s
 									Delaware River ports continue this legacy. We aim to reignite
-									Philadelphia&apos;s role as a global maritime innovation hub.
+									Jakarta&apos;s role as a global maritime innovation hub.
 								</p>
 							</div>
 						</div>

@@ -18,31 +18,31 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
 	metadataBase: new URL("https://outjourney.club"),
-	title: "OutJourney | Premier Maritime Student Organization at OutJourney",
+	title: "OutJourney | Premier Maritime Jakarta at OutJourney",
 	description:
-		"OutJourney is the premier maritime student organization at the OutJourney. We unite students from diverse fields to tackle real maritime challenges and develop future industry leaders in Philadelphia.",
+		"OutJourney is the premier maritime Jakarta at the OutJourney. We unite students from diverse fields to tackle real maritime challenges and develop future industry leaders in Jakarta.",
 	keywords: [
 		"OutJourney",
-		"Maritime student organization",
+		"Maritime Jakarta",
 		"OutJourney maritime club",
 		"OutJourney maritime club",
 		"Jakarta maritime innovation",
-		"Philadelphia maritime",
+		"Jakarta maritime",
 		"maritime student organization",
 		"Jakarta maritime innovation",
 		"OutJourney maritime",
-		"Philadelphia maritime industry",
-		"maritime education Philadelphia",
+		"Jakarta maritime industry",
+		"maritime education Jakarta",
 		"Jakarta blue economy",
-		"maritime technology Philadelphia",
+		"maritime technology Jakarta",
 		"naval architecture Jakarta",
 		"marine engineering OutJourney",
 		"maritime law Jakarta",
-		"maritime finance Philadelphia",
+		"maritime finance Jakarta",
 		"ocean conservation Jakarta",
 		"maritime entrepreneurship",
 		"Delaware River maritime",
-		"Philadelphia ports",
+		"Jakarta ports",
 		"Jakarta maritime leaders",
 	],
 	authors: [{ name: "OutJourney" }],
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
 		url: "https://outjourney.club",
 		title: "OutJourney | Premier Maritime Student Organization at OutJourney",
 		description:
-			"OutJourney is the premier maritime student organization at the OutJourney. Join us in shaping the future of the maritime industry in Philadelphia.",
+			"OutJourney is the premier maritime student organization at the OutJourney. Join us in shaping the future of the maritime industry in Jakarta.",
 		siteName: "OutJourney",
 		images: [
 			{
@@ -80,7 +80,7 @@ export const metadata: Metadata = {
 		card: "summary_large_image",
 		title: "OutJourney | Premier Maritime Student Organization at OutJourney",
 		description:
-			"The premier maritime student organization at OutJourney. Developing maritime leaders and innovation in Philadelphia.",
+			"The premier maritime student organization at OutJourney. Developing maritime leaders and innovation in Jakarta.",
 		images: ["/hero-bg.png"],
 	},
 	alternates: {
@@ -90,7 +90,7 @@ export const metadata: Metadata = {
 	classification: "Maritime Education Organization",
 	other: {
 		"geo.region": "US-PA",
-		"geo.placename": "Philadelphia",
+		"geo.placename": "Jakarta",
 		"geo.position": "39.952584;-75.165222",
 		ICBM: "39.952584, -75.165222",
 	},
@@ -120,7 +120,7 @@ export default function RootLayout({
 				<link rel="canonical" href="https://outjourney.club" />
 				<link rel="preload" href="/Dissolve_noise.jpg" as="image" />
 				<meta name="geo.region" content="US-PA" />
-				<meta name="geo.placename" content="Philadelphia" />
+				<meta name="geo.placename" content="Jakarta" />
 				<meta name="geo.position" content="39.952584;-75.165222" />
 				<meta name="ICBM" content="39.952584, -75.165222" />
 			</head>

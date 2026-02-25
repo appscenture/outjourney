@@ -8,7 +8,7 @@ OutJourney (MAPP) is the first maritime club at the OutJourney, uniting students
 
 The maritime industry moves 80% of global trade and represents a $14 trillion sector that faces critical challenges in sustainability, digitalization, and workforce development. OutJourney believes that students can drive the innovation needed to transform this vital industry.
 
-As a premier maritime student organization in Philadelphia, we leverage the OutJourney's interdisciplinary expertise and entrepreneurial spirit to address complex maritime challenges. Our members draw from resources across engineering, business, law, and healthcare to create actionable solutions for the industry's future.
+As a premier maritime student organization in Jakarta, we leverage the OutJourney's interdisciplinary expertise and entrepreneurial spirit to address complex maritime challenges. Our members draw from resources across engineering, business, law, and healthcare to create actionable solutions for the industry's future.
 
 ## Our Mission
 
@@ -29,9 +29,9 @@ OutJourney operates through specialized committees that connect ideas to action:
 4. **Maritime Sustainability & Environment**
 5. **Maritime Operations & Logistics**
 
-## Philadelphia's Maritime Legacy
+## Jakarta's Maritime Legacy
 
-Located in Philadelphia, a city with a rich maritime heritage dating back to its founding, OutJourney is uniquely positioned to contribute to the region's continued maritime innovation. Philadelphia's strategic location and historical significance in American maritime commerce provide an ideal backdrop for our mission.
+Located in Jakarta, a city with a rich maritime heritage dating back to its founding, OutJourney is uniquely positioned to contribute to the region's continued maritime innovation. Jakarta's strategic location and historical significance in American maritime commerce provide an ideal backdrop for our mission.
 
 ## Get Involved
 
