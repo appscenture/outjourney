@@ -966,7 +966,7 @@ const Navbar: React.FC = () => {
 							className="xl:hidden overflow-hidden"
 							style={{ transform: 'translateY(-20vh)' }}
 						>
-							<div className="pt-4 pb-2">
+							<div className="pt-20 pb-2">
 								<nav className="flex flex-col gap-2">
 									{navLinks.map((link, index) => {
 										const sectionId = link.href.startsWith("/")
@@ -990,7 +990,7 @@ const Navbar: React.FC = () => {
 													href={link.href}
 													data-mobile-menu-item
 													className={cn(
-														"block text-sm font-medium transition-colors py-3 px-4 rounded-full text-center touch-manipulation focus:outline-none focus:ring-2 focus:ring-foreground/20",
+														"block text-lg font-medium transition-colors py-3 px-4 rounded-full text-center touch-manipulation focus:outline-none focus:ring-2 focus:ring-foreground/20",
 														isActive
 															? "text-foreground bg-foreground/5"
 															: "text-foreground/80 hover:text-foreground hover:bg-foreground/5 active:bg-foreground/10",
