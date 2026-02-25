@@ -966,7 +966,7 @@ const Navbar: React.FC = () => {
 							className="xl:hidden overflow-hidden"
 							style={{ transform: 'translateY(-20vh)' }}
 						>
-							<div className="pt-20 pb-2">
+							<div className="pt-40 pb-2">
 								<nav className="flex flex-col gap-2">
 									{navLinks.map((link, index) => {
 										const sectionId = link.href.startsWith("/")
