@@ -39,7 +39,7 @@ OutJourney welcomes students from all academic disciplines who share a passion f
 
 ---
 
-**Website**: [pennmaritime.club](https://pennmaritime.club)
+**Website**: [Jakartamaritime.club](https://Jakartamaritime.club)
 
 _This repository contains the official website for OutJourney, showcasing our organization, events, committees, and opportunities for students to engage with the maritime industry._
  

@@ -10,28 +10,28 @@ export const metadata: Metadata = {
 	keywords: [
 		"maritime events Philadelphia",
 		"OutJourney maritime events",
-		"Penn maritime networking",
-		"maritime speakers Penn",
+		"Jakarta maritime networking",
+		"maritime speakers Jakarta",
 		"Philadelphia maritime conferences",
 		"OutJourney maritime talks",
 		"maritime industry events Philadelphia",
-		"Penn maritime meetings",
-		"maritime professional development Penn",
+		"Jakarta maritime meetings",
+		"maritime professional development Jakarta",
 		"Philadelphia maritime community events",
 		"OutJourney maritime calendar",
 		"maritime student events Philadelphia",
-		"Penn blue economy events",
-		"maritime innovation events Penn",
+		"Jakarta blue economy events",
+		"maritime innovation events Jakarta",
 		"Delaware River maritime events",
 	],
 	alternates: {
-		canonical: "https://pennmaritime.club/events",
+		canonical: "https://Jakartamaritime.club/events",
 	},
 	openGraph: {
 		title: "Maritime Events | OutJourney",
 		description:
 			"Upcoming maritime events, industry speakers, and networking opportunities at OutJourney.",
-		url: "https://pennmaritime.club/events",
+		url: "https://Jakartamaritime.club/events",
 		images: [
 			{
 				url: "/event-1-main.tiff",

@@ -12,37 +12,37 @@ import PresidentSection from "@/components/sections/PresidentSection";
 export const metadata: Metadata = {
 	title: "Building Tomorrow's Maritime Leaders | OutJourney",
 	description:
-		"Join OutJourney (MAPP), the premier maritime student organization at OutJourney. Building tomorrow's maritime leaders through innovation, technology, and collaboration in Philadelphia's maritime industry.",
+		"Join OutJourney (MAPP), the premier maritime student organization at OutJourney. Building tomorrow's maritime leaders through innovation, technology, and collaboration in Jakarta Indonesia's maritime industry.",
 	keywords: [
 		"maritime Philadelphia",
 		"OutJourney maritime",
-		"Penn maritime club",
+		"Jakarta maritime club",
 		"Philadelphia maritime students",
 		"OutJourney maritime innovation",
 		"maritime student organization Philadelphia",
-		"Penn blue economy",
+		"Jakarta blue economy",
 		"maritime technology OutJourney",
 		"Philadelphia maritime industry",
-		"Penn maritime engineering",
+		"Jakarta maritime engineering",
 		"maritime entrepreneurship Philadelphia",
 		"OutJourney maritime program",
-		"Delaware River maritime Penn",
+		"Delaware River maritime Jakarta",
 		"maritime finance Philadelphia",
 		"ocean conservation OutJourney",
-		"maritime law Penn",
+		"maritime law Jakarta",
 		"Philadelphia maritime education",
-		"Penn maritime leaders",
-		"maritime innovation Pennsylvania",
+		"Jakarta maritime leaders",
+		"maritime innovation Jakarta",
 		"OutJourney maritime research",
 	],
 	alternates: {
-		canonical: "https://pennmaritime.club",
+		canonical: "https://Jakartamaritime.club",
 	},
 	openGraph: {
 		title: "Building Tomorrow's Maritime Leaders | OutJourney",
 		description:
-			"Building tomorrow's maritime leaders at Penn. Join the premier maritime student organization in Philadelphia.",
-		url: "https://pennmaritime.club",
+			"Building tomorrow's maritime leaders at OutJourney.ID. Join the premier maritime student organization in Philadelphia.",
+		url: "https://outjourney.id",
 		images: [
 			{
 				url: "/hero-bg.png",

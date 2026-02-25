@@ -5,7 +5,7 @@ export default config({
 		kind: "cloud",
 	},
 	cloud: {
-		project: "maritime-penn/pennmaritime",
+		project: "maritime-Jakarta/Jakartamaritime",
 	},
 	collections: {
 		events: collection({

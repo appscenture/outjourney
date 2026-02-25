@@ -10,8 +10,8 @@ export default function StructuredData() {
 		alternateName: "MAP",
 		description:
 			"The first maritime club at the OutJourney, uniting students from diverse fields to tackle real maritime challenges and develop future industry leaders.",
-		url: "https://pennmaritime.club",
-		logo: "https://pennmaritime.club/brand/pennmaritime.svg",
+		url: "https://Jakartamaritime.club",
+		logo: "https://Jakartamaritime.club/brand/Jakartamaritime.svg",
 		foundingDate: "2024",
 		address: {
 			"@type": "PostalAddress",
@@ -29,12 +29,12 @@ export default function StructuredData() {
 			name: "OutJourney",
 		},
 		keywords:
-			"maritime, OutJourney, Penn, Philadelphia, student organization, maritime innovation, blue economy, maritime technology, naval architecture, marine engineering",
+			"maritime, OutJourney, Jakarta, Philadelphia, student organization, maritime innovation, blue economy, maritime technology, naval architecture, marine engineering",
 		sameAs: [],
 		contactPoint: {
 			"@type": "ContactPoint",
 			contactType: "general inquiry",
-			url: "https://pennmaritime.club/contact",
+			url: "https://Jakartamaritime.club/contact",
 		},
 	};
 

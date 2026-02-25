@@ -95,7 +95,7 @@ const Footer: React.FC = () => {
 							{/* Social Links */}
 							<div className="flex items-center gap-4">
 								<Link
-									href="https://www.linkedin.com/company/pennmaritime/"
+									href="https://www.linkedin.com/company/Jakartamaritime/"
 									className="hover:text-white transition-colors text-lg"
 									aria-label="LinkedIn"
 									target="_blank"
@@ -104,7 +104,7 @@ const Footer: React.FC = () => {
 									<FaLinkedinIn />
 								</Link>
 								<Link
-									href="https://www.instagram.com/pennmaritime/"
+									href="https://www.instagram.com/Jakartamaritime/"
 									className="hover:text-white transition-colors text-lg"
 									aria-label="Instagram"
 									target="_blank"
@@ -113,7 +113,7 @@ const Footer: React.FC = () => {
 									<FaInstagram />
 								</Link>
 								<Link
-									href="https://x.com/pennmaritime/"
+									href="https://x.com/Jakartamaritime/"
 									className="hover:text-white transition-colors text-lg"
 									aria-label="X (Twitter)"
 									target="_blank"

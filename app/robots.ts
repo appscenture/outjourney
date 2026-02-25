@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
 			allow: "/",
 			disallow: ["/keystatic/"],
 		},
-		sitemap: "https://pennmaritime.club/sitemap.xml",
-		host: "https://pennmaritime.club",
+		sitemap: "https://Jakartamaritime.club/sitemap.xml",
+		host: "https://Jakartamaritime.club",
 	};
 }
