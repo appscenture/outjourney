@@ -18,9 +18,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
 	metadataBase: new URL("https://outjourney.club"),
-	title: "OutJourney | Premier Maritime Jakarta at OutJourney",
+	title: "OutJourney | First Maritime App in Jakarta",
 	description:
-		"OutJourney is the premier maritime Jakarta at the OutJourney. We unite students from diverse fields to tackle real maritime challenges and develop future industry leaders in Jakarta.",
+		"OutJourney is the first Maritime App in Jakarta. We unite students and maritime professionals to tackle real maritime challenges and develop future industry leaders.",
 	keywords: [
 		"OutJourney",
 		"Maritime Jakarta",

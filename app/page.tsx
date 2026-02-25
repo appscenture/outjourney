@@ -12,21 +12,21 @@ import PresidentSection from "@/components/sections/PresidentSection";
 export const metadata: Metadata = {
 	title: "Building Tomorrow's Maritime Leaders | OutJourney",
 	description:
-		"Join OutJourney (MAPP), the premier maritime student organization at OutJourney. Building tomorrow's maritime leaders through innovation, technology, and collaboration in Jakarta Indonesia's maritime industry.",
+		"Join OutJourney, the first Maritime App in Jakarta. Building tomorrow's maritime leaders through innovation, technology, and collaboration in Indonesia's maritime industry.",
 	keywords: [
 		"maritime Jakarta",
 		"OutJourney maritime",
-		"Jakarta maritime club",
-		"Jakarta maritime students",
+		"Jakarta maritime app",
+		"maritime app Indonesia",
 		"OutJourney maritime innovation",
-		"maritime student organization Jakarta",
+		"first maritime app Jakarta",
 		"Jakarta blue economy",
 		"maritime technology OutJourney",
 		"Jakarta maritime industry",
 		"Jakarta maritime engineering",
 		"maritime entrepreneurship Jakarta",
 		"OutJourney maritime program",
-		"Delaware River maritime Jakarta",
+		"maritime app Jakarta",
 		"maritime finance Jakarta",
 		"ocean conservation OutJourney",
 		"maritime law Jakarta",
@@ -36,12 +36,12 @@ export const metadata: Metadata = {
 		"OutJourney maritime research",
 	],
 	alternates: {
-		canonical: "https://Jakartamaritime.club",
+		canonical: "https://outjourney.club",
 	},
 	openGraph: {
 		title: "Building Tomorrow's Maritime Leaders | OutJourney",
 		description:
-			"Building tomorrow's maritime leaders at OutJourney.ID. Join the premier maritime student organization in Jakarta.",
+			"The first Maritime App in Jakarta. Join OutJourney and build tomorrow's maritime leaders through innovation and collaboration.",
 		url: "https://outjourney.id",
 		images: [
 			{
