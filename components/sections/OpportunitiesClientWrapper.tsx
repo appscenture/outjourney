@@ -15,11 +15,11 @@ export function OpportunitiesClientWrapper() {
 				</p>
 				<Button size="lg" className="text-lg min-w-[200px] h-12" asChild>
 					<Link
-						href="https://docs.google.com/forms/d/e/1FAIpQLSdDukINYILSvkRdH1vkeLvVq-hoiKIKjVom_i92Swtj3uRGvQ/viewform"
+						href="https://www.outjourney.id/contact"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						Join MAP Today
+						Join OutJourney.ID Today
 					</Link>
 				</Button>
 			</div>
