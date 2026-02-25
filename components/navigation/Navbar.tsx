@@ -964,6 +964,7 @@ const Navbar: React.FC = () => {
 							exit={{ height: 0, opacity: 0 }}
 							transition={{ duration: 0.3, ease: "easeInOut" }}
 							className="xl:hidden overflow-hidden"
+							style={{ transform: 'translateY(-20vh)' }}
 						>
 							<div className="pt-4 pb-2">
 								<nav className="flex flex-col gap-2">
