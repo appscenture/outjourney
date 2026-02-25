@@ -7,34 +7,34 @@ export default function StructuredData() {
 		"@context": "https://schema.org",
 		"@type": "Organization",
 		name: "OutJourney",
-		alternateName: "MAP",
+		alternateName: "OutJourney.ID",
 		description:
-			"The first maritime club at the OutJourney, uniting students from diverse fields to tackle real maritime challenges and develop future industry leaders.",
-		url: "https://Jakartamaritime.club",
-		logo: "https://Jakartamaritime.club/brand/Jakartamaritime.svg",
+			"The first Maritime App in Jakarta, uniting students and maritime professionals to tackle real maritime challenges and develop future industry leaders.",
+		url: "https://outjourney.club",
+		logo: "https://outjourney.club/brand/outjourney-logo.png",
 		foundingDate: "2024",
 		address: {
 			"@type": "PostalAddress",
 			addressLocality: "Jakarta",
-			addressRegion: "PA",
-			addressCountry: "US",
+			addressRegion: "DKI Jakarta",
+			addressCountry: "ID",
 		},
 		parentOrganization: {
-			"@type": "CollegeOrUniversity",
+			"@type": "Organization",
 			name: "OutJourney",
-			url: "https://www.OutJourney.edu",
+			url: "https://www.outjourney.id",
 		},
 		memberOf: {
-			"@type": "CollegeOrUniversity",
+			"@type": "Organization",
 			name: "OutJourney",
 		},
 		keywords:
-			"maritime, OutJourney, Jakarta, Jakarta, student organization, maritime innovation, blue economy, maritime technology, naval architecture, marine engineering",
+			"maritime, OutJourney, Jakarta, maritime app, first maritime app, maritime innovation, blue economy, maritime technology, naval architecture, marine engineering",
 		sameAs: [],
 		contactPoint: {
 			"@type": "ContactPoint",
 			contactType: "general inquiry",
-			url: "https://Jakartamaritime.club/contact",
+			url: "https://outjourney.club/contact",
 		},
 	};
 
