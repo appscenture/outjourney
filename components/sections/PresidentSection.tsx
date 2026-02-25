@@ -77,24 +77,24 @@ const PresidentSection: React.FC = () => {
 									<div className="flex flex-col space-y-3">
 										<div className="flex items-center gap-3">
 											<span className="text-lg font-medium text-foreground">
-												Luka Adzic
+												PT OutJourney Jelajal Nusantara
 											</span>
 											<div className="flex items-center gap-2">
 												<a
-													href="https://www.linkedin.com/in/lukaadzic/"
+													href="https://www.linkedin.com/in/appscenture/"
 													target="_blank"
 													rel="noopener noreferrer"
 													className="text-muted-foreground hover:text-primary transition-colors"
-													aria-label="Visit Luka Adzic's LinkedIn profile"
+													aria-label="Visit Appscenture's LinkedIn profile"
 												>
 													<FaLinkedinIn className="w-4 h-4" />
 												</a>
 												<a
-													href="https://github.com/lukaadzic"
+													href="https://github.com/appscenture"
 													target="_blank"
 													rel="noopener noreferrer"
 													className="text-muted-foreground hover:text-primary transition-colors"
-													aria-label="Visit Luka Adzic's GitHub profile"
+													aria-label="Visit Appscenture GitHub profile"
 												>
 													<FaGithub className="w-4 h-4" />
 												</a>
@@ -112,8 +112,8 @@ const PresidentSection: React.FC = () => {
 								<div className="relative w-full max-w-md mx-auto lg:max-w-none">
 									<div className="relative rounded-2xl overflow-hidden">
 										<Image
-											src="/Luka.jpeg"
-											alt="Luka Adzic, Founder & President of OutJourney"
+											src="/Luka.jpg"
+											alt="PT OutJourney Jelajal Nusantara, Founder & President of OutJourney"
 											className="object-cover aspect-[3/4] bg-muted"
 											priority
 											width={5000}
@@ -143,7 +143,7 @@ const PresidentSection: React.FC = () => {
 				<div className="hidden lg:block absolute -bottom-42 rotate-24 -left-48 size-[800px] opacity-5 pointer-events-none">
 					<Image
 						src="/signature.svg"
-						alt="Luka Adzic's signature"
+						alt="PT OutJourney Jelajal Nusantara signature"
 						fill
 						className="object-contain invert"
 					/>
