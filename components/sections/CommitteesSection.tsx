@@ -160,7 +160,7 @@ const CommitteesSection: React.FC = () => {
 									asChild
 								>
 									<Link
-										href="https://docs.google.com/forms/d/e/1FAIpQLSd_vhj-UDmEajw97hSEMuaDyn188mRaRDeVi0RMLoeotbwkpg/viewform"
+										href="https://www.outjourney.id/contact"
 										target="_blank"
 										rel="noopener noreferrer"
 									>
