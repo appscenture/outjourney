@@ -87,7 +87,7 @@ export default config({
 						true: fields.object({
 							title: fields.text({
 								label: "Message Title",
-								defaultValue: "Words from the President",
+								defaultValue: "Commitment",
 							}),
 							content: fields.text({
 								label: "President Message Content",

@@ -70,13 +70,13 @@ const HeroSection: React.FC = () => {
 				<div className="relative z-10 flex-1 flex items-center justify-center text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto min-h-[calc(100vh-2rem)] sm:min-h-[calc(100vh-3rem)] lg:min-h-[calc(100vh-4rem)]">
 					{/* Headline */}
 					<div>
-						<h1 className="text-4xl sm:text-5xl lg:text-6xl font-light text-white mb-8 leading-tight tracking-wide drop-shadow-lg">
-							<span className="italic text-slate-200">Building</span>{" "}
-							<span className="font-medium text-slate-100">
+						<h1 className="text-4xl sm:text-5xl lg:text-6xl font-light text-foreground mb-8 leading-tight tracking-wide drop-shadow-lg">
+							<span className="italic text-muted-foreground">Building</span>{" "}
+							<span className="font-medium text-muted-foreground">
 								Tomorrow&apos;s
 							</span>{" "}
-							<span className="font-semibold text-white">Maritime</span>{" "}
-							<span className="text-slate-100">Leaders</span>
+							<span className="font-semibold text-foreground">Maritime</span>{" "}
+							<span className="text-muted-foreground">Leaders</span>
 						</h1>
 
 						{/* CTA Buttons */}

@@ -7,6 +7,7 @@ import { usePathname } from "next/navigation";
 import type React from "react";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { cn } from "@/lib/utils";
+import ThemeToggle from "@/components/navigation/ThemeToggle";
 
 interface NavLink {
 	href: string;
@@ -678,7 +679,7 @@ const Navbar: React.FC = () => {
 
 	return (
 		<motion.nav
-			className="fixed top-12 left-1/2 transform -translate-x-1/2 w-full max-w-[90%] backdrop-blur-md rounded-3xl lg:rounded-full lg:max-w-[990px] z-50 **:select-none"
+			className="fixed top-12 left-1/2 transform -translate-x-1/2 w-full max-w-[90%] backdrop-blur-md rounded-3xl lg:rounded-full lg:max-w-[990px] z-50 **:select-none md:top-6"
 			initial={{
 				opacity: 0,
 				filter: "blur(8px)",
@@ -790,14 +791,23 @@ const Navbar: React.FC = () => {
 						})}
 					</nav>
 
+                    
+
 					{/* Logo */}
-					<div className="flex items-center justify-center gap-2 relative mx-6 xl:mx-8">
-						<Link
-							href="/"
-						className="font-bold text-xl md:text-2xl text-white hover:text-cyan-400 transition-colors z-10"
-					>
-						OutJourney
-					</Link>
+					<div className="flex items-center justify-center gap-3 relative mx-6 xl:mx-8">
+						<Link href="/" className="flex items-center gap-3">
+							<Image
+								src="/logo/outjourney-logo.png"
+								alt="OutJourney"
+								width={32}
+								height={32}
+								className="z-10 w-8 h-8 sm:w-9 sm:h-9 md:w-10 md:h-10 object-contain"
+								priority
+							/>
+							<span className="font-bold text-xl md:text-2xl text-foreground hover:text-cyan-400 transition-colors z-10">
+								OutJourney
+							</span>
+						</Link>
 					</div>
 
 					{/* Right Navigation Links */}
@@ -879,18 +889,30 @@ const Navbar: React.FC = () => {
 								</Link>
 							);
 						})}
+
+						{/* Theme toggle next to Contact Us */}
+						<div className="ml-2 mr-1">
+							<ThemeToggle />
+						</div>
 					</nav>
 				</div>
 
 				{/* Mobile/Tablet Navigation (Small to Large screens) */}
-				<div className="flex lg:hidden items-center justify-between">
+				<div className="flex lg:hidden items-center justify-between flex-1">
 					{/* Logo */}
 					<div className="flex-1 flex justify-center">
-						<Link
-							href="/"
-							className="font-bold text-lg md:text-xl text-white hover:text-cyan-400 transition-colors z-10"
-						>
-							OutJourney
+						<Link href="/" className="flex items-center gap-2">
+							<Image
+								src="/logo/outjourney-logo.png"
+								alt="OutJourney"
+								width={24}
+								height={24}
+								className="z-10 w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 object-contain"
+								priority
+							/>
+							<span className="font-bold text-sm md:text-lg text-foreground z-10">
+								OutJourney
+							</span>
 						</Link>
 					</div>
 
@@ -984,12 +1006,16 @@ const Navbar: React.FC = () => {
 										);
 									})}
 								</nav>
+
+								<div className="mt-3 flex justify-center">
+									<ThemeToggle />
+								</div>
 							</div>
 						</motion.div>
 					)}
 				</AnimatePresence>
 			</div>
-		</motion.nav>
+			</motion.nav>
 	);
 };
 

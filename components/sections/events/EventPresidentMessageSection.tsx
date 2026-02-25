@@ -55,14 +55,14 @@ const EventPresidentMessageSection: React.FC<
 
 						{/* Title */}
 						<h2 className="text-2xl sm:text-3xl lg:text-4xl font-light text-foreground mb-4">
-							{title || "Words from the President"}
+							{title || "Our Commitment"}
 						</h2>
 
 						{/* President Info */}
 						<div className="text-center">
 							<p className="text-lg font-medium text-primary">Luka Adzic</p>
 							<p className="text-muted-foreground">
-								Founder & President, OutJourney
+								Founders & President, OutJourney
 							</p>
 						</div>
 					</div>

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type React from "react";
 import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
@@ -31,6 +32,19 @@ const Footer: React.FC = () => {
 				{/* Content */}
 				<div className="relative z-10 flex-1 flex items-center justify-center text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto min-h-[calc(100vh-2rem)] sm:min-h-[calc(100vh-3rem)] lg:min-h-[calc(100vh-4rem)]">
 					<div>
+						{/* Logo */}
+						<div className="mb-8 flex items-center justify-center gap-3">
+							<Image
+								src="/logo/outjourney-logo.png"
+								alt="OutJourney"
+								width={48}
+								height={48}
+								className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 object-contain drop-shadow-lg"
+								priority
+							/>
+							<span className="text-2xl font-bold text-foreground drop-shadow-lg">OutJourney</span>
+						</div>
+
 						{/* Small Tagline */}
 						<div className="mb-8">
 							<span className="text-sm font-medium text-slate-200 uppercase tracking-wider">

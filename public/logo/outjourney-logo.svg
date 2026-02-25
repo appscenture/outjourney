@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" fill="none">
+  <!-- OutJourney Logo SVG -->
+  <!-- Blue geometric ship/wave design -->
+  
+  <!-- Top sail 1 -->
+  <path d="M 160 120 L 280 120 L 240 280 L 140 280 Z" fill="#0056CC" />
+  
+  <!-- Top sail 2 -->
+  <path d="M 300 100 L 420 100 L 380 260 L 280 260 Z" fill="#1977FF" />
+  
+  <!-- Middle/Main hull section -->
+  <path d="M 240 290 L 340 290 L 380 420 L 200 420 Z" fill="#0B74FF" />
+  
+  <!-- Bottom right accent -->
+  <path d="M 360 300 L 450 300 L 480 380 L 380 380 Z" fill="#0056CC" />
+  
+  <!-- Wave/water element -->
+  <path d="M 200 420 L 380 420 L 420 520 L 160 520 Z" fill="#1977FF" opacity="0.7" />
+  
+  <!-- Circular accent -->
+  <circle cx="200" cy="420" r="35" fill="#0B74FF" opacity="0.8" />
+  
+  <!-- Text would go here but we'll keep it SVG only -->
+</svg>

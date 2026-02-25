@@ -28,7 +28,7 @@ const PresidentSection: React.FC = () => {
 						{/* Tagline */}
 						<div className="mb-6">
 							<span className="text-sm font-medium text-muted-foreground uppercase tracking-wider">
-								Words from the President
+								Commitment
 							</span>
 						</div>
 

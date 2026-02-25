@@ -100,7 +100,7 @@ const EventPhotosGrid: React.FC<EventPhotosGridProps> = ({
 					>
 						{/* Overlay on hover */}
 						<div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-							<div className="text-white text-sm font-medium bg-black/30 backdrop-blur-sm px-3 py-1.5 rounded-full border border-white/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+							<div className="text-foreground text-sm font-medium bg-black/30 backdrop-blur-sm px-3 py-1.5 rounded-full border border-border opacity-0 group-hover:opacity-100 transition-opacity duration-300">
 								Click to view
 							</div>
 						</div>
@@ -136,7 +136,7 @@ const EventPhotosGrid: React.FC<EventPhotosGridProps> = ({
 								<Button
 									variant="ghost"
 									onClick={closeLightbox}
-									className="absolute top-6 right-6 z-10 rounded-md text-white hover:bg-white/20 hover:text-white p-3"
+									className="absolute top-6 right-6 z-10 rounded-md text-foreground hover:bg-white/20 hover:text-foreground p-3"
 									aria-label="Close lightbox"
 								>
 									<HiX className="w-6 h-6" />
@@ -151,7 +151,7 @@ const EventPhotosGrid: React.FC<EventPhotosGridProps> = ({
 												e.stopPropagation();
 												goToPrevious();
 											}}
-											className="absolute left-6 top-1/2 -translate-y-1/2 z-10 rounded-md text-white hover:bg-white/20 hover:text-white p-3"
+											className="absolute left-6 top-1/2 -translate-y-1/2 z-10 rounded-md text-foreground hover:bg-white/20 hover:text-foreground p-3"
 											aria-label="Previous image"
 										>
 											<HiArrowLeft className="w-6 h-6" />
@@ -162,7 +162,7 @@ const EventPhotosGrid: React.FC<EventPhotosGridProps> = ({
 												e.stopPropagation();
 												goToNext();
 											}}
-											className="absolute right-6 top-1/2 -translate-y-1/2 z-10 rounded-md text-white hover:bg-white/20 hover:text-white p-3"
+											className="absolute right-6 top-1/2 -translate-y-1/2 z-10 rounded-md text-foreground hover:bg-white/20 hover:text-foreground p-3"
 											aria-label="Next image"
 										>
 											<HiArrowRight className="w-6 h-6" />
@@ -232,8 +232,8 @@ const EventPhotosGrid: React.FC<EventPhotosGridProps> = ({
 												}}
 												className={`w-2 h-2 rounded-full transition-all duration-200 ${
 													index === selectedImageIndex
-														? "bg-white scale-125"
-														: "bg-white/40 hover:bg-white/60"
+														? "bg-foreground scale-125"
+														: "bg-foreground/40 hover:bg-foreground/60"
 												}`}
 												aria-label={`Go to image ${index + 1}`}
 											/>

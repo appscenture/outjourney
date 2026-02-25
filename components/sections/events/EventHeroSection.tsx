@@ -42,7 +42,7 @@ const EventHeroSection: React.FC<EventHeroSectionProps> = ({ event }) => {
 						<div className="mb-6">
 							<Link
 								href="/events"
-								className="text-white/80 hover:text-white transition-colors text-sm font-medium flex items-center gap-2"
+								className="text-foreground/80 hover:text-foreground transition-colors text-sm font-medium flex items-center gap-2"
 							>
 								<HiArrowLeft className="w-4 h-4" />
 								Back to Events
@@ -51,20 +51,20 @@ const EventHeroSection: React.FC<EventHeroSectionProps> = ({ event }) => {
 
 						{/* Event Type Badge */}
 						<div className="mb-4">
-							<span className="text-xs uppercase tracking-wider text-white font-medium bg-white/10 backdrop-blur-sm px-3 py-1.5 rounded-md border-t border-white/20">
+							<span className="text-xs uppercase tracking-wider text-foreground font-medium bg-card/10 backdrop-blur-sm px-3 py-1.5 rounded-md border-t border-border">
 								{formatEventType(event.type)}
 							</span>
 						</div>
 
 						{/* Title */}
-						<h1 className="text-4xl sm:text-5xl lg:text-6xl font-light text-white mb-6 leading-tight max-w-4xl">
+						<h1 className="text-4xl sm:text-5xl lg:text-6xl font-light text-foreground mb-6 leading-tight max-w-4xl">
 							{event.title}
 						</h1>
 
 						{/* Event Details Grid */}
 						<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
 							{/* Date */}
-							<div className="flex items-center gap-3 text-white/90">
+								<div className="flex items-center gap-3 text-foreground/90">
 								<HiOutlineCalendar className="w-5 h-5" />
 								<div>
 									<p className="text-sm font-medium">
@@ -75,7 +75,7 @@ const EventHeroSection: React.FC<EventHeroSectionProps> = ({ event }) => {
 
 							{/* Time */}
 							{event.time && (
-								<div className="flex items-center gap-3 text-white/90">
+								<div className="flex items-center gap-3 text-foreground/90">
 									<HiOutlineClock className="w-5 h-5" />
 									<div>
 										<p className="text-sm font-medium">{event.time}</p>
@@ -85,7 +85,7 @@ const EventHeroSection: React.FC<EventHeroSectionProps> = ({ event }) => {
 
 							{/* Location */}
 							{event.location && (
-								<div className="flex items-center gap-3 text-white/90">
+								<div className="flex items-center gap-3 text-foreground/90">
 									<HiOutlineLocationMarker className="w-5 h-5" />
 									<div>
 										<p className="text-sm font-medium">{event.location}</p>
@@ -100,7 +100,7 @@ const EventHeroSection: React.FC<EventHeroSectionProps> = ({ event }) => {
 										event.status === "upcoming" ? "bg-green-400" : "bg-gray-400"
 									}`}
 								></div>
-								<p className="text-sm font-medium text-white/90 capitalize">
+								<p className="text-sm font-medium text-foreground/90 capitalize">
 									{event.status}
 								</p>
 							</div>
@@ -110,13 +110,13 @@ const EventHeroSection: React.FC<EventHeroSectionProps> = ({ event }) => {
 						{event.speaker && event.company && (
 							<div className="mb-8 max-w-2xl">
 								<div className="border-l-2 border-white/30 pl-6">
-									<p className="text-sm text-white/70 uppercase tracking-wider font-medium mb-2">
+									<p className="text-sm text-foreground/70 uppercase tracking-wider font-medium mb-2">
 										Featured Speaker
 									</p>
-									<h3 className="text-2xl font-light text-white mb-1">
+									<h3 className="text-2xl font-light text-foreground mb-1">
 										{event.speaker}
 									</h3>
-									<p className="text-lg text-white/80 font-light">
+									<p className="text-lg text-foreground/80 font-light">
 										{event.company}
 									</p>
 								</div>
@@ -125,7 +125,7 @@ const EventHeroSection: React.FC<EventHeroSectionProps> = ({ event }) => {
 
 						{/* Short Description */}
 						{event.shortDescription && (
-							<p className="text-lg text-white/90 leading-relaxed max-w-3xl mb-8">
+							<p className="text-lg text-foreground/90 leading-relaxed max-w-3xl mb-8">
 								{event.shortDescription}
 							</p>
 						)}
