@@ -78,9 +78,9 @@ export const metadata: Metadata = {
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "OutJourney | Premier Maritime Student Organization at OutJourney",
+		title: "OutJourney | First Maritime App in Jakarta",
 		description:
-			"The premier maritime student organization at OutJourney. Developing maritime leaders and innovation in Jakarta.",
+			"The first Maritime App in Jakarta. Developing maritime leaders and innovation.",
 		images: ["/hero-bg.png"],
 	},
 	alternates: {
