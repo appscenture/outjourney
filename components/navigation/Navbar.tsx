@@ -679,7 +679,7 @@ const Navbar: React.FC = () => {
 
 	return (
 		<motion.nav
-			className="fixed top-12 left-1/2 transform -translate-x-1/2 w-full max-w-[90%] backdrop-blur-md rounded-3xl lg:rounded-full lg:max-w-[990px] z-50 **:select-none md:top-6"
+			className="fixed top-[2vh] left-1/2 transform -translate-x-1/2 w-full max-w-[90%] backdrop-blur-md rounded-3xl lg:rounded-full lg:max-w-[990px] z-50 select-none md:top-6"
 			initial={{
 				opacity: 0,
 				filter: "blur(8px)",
