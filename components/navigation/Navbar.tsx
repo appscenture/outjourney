@@ -905,13 +905,13 @@ const Navbar: React.FC = () => {
 							<Image
 								src="/logo/outjourney-logo.png"
 								alt="OutJourney"
-								width={24}
-								height={24}
-								className="z-10 w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 object-contain"
+								width={48}
+								height={48}
+								className="z-10 w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 object-contain"
 								priority
 							/>
-							<span className="font-bold text-sm md:text-lg text-foreground z-10">
-								OutJourney
+							<span className="font-bold text-base md:text-2xl text-foreground z-10">
+								OutJourney.ID
 							</span>
 						</Link>
 					</div>
