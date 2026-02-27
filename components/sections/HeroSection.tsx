@@ -83,11 +83,11 @@ const HeroSection: React.FC = () => {
 						<div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
 							<Button size="lg" className="text-lg min-w-[200px] h-12" asChild>
 								<Link
-									href="https://docs.google.com/forms/d/e/1FAIpQLSdDukINYILSvkRdH1vkeLvVq-hoiKIKjVom_i92Swtj3uRGvQ/viewform"
+									href="https://career.outjourney.id/form/Y_XUVoquTak6VaxT2I9QIFwBCuJZ2V5PlwcQlcwFh_Q"
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Join now
+									Apply Now
 								</Link>
 							</Button>
 							<Button
